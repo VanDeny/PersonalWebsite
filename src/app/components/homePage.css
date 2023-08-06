@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .mainFrame{
+        @apply full h-screen snap-center bg-gradient-to-t m-0.5
+    }
+}
