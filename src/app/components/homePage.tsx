@@ -1,8 +1,8 @@
 export default function HomePage() {
 
     return (
-        <div id={'home'} className={'w-full h-screen snap-center bg-gradient-to-t m-0.5'}>
-            <div className={'text-center text-7xl'}>Denis Badura</div>
-            <div className={'text-center'}>least reliable developer in Ostrava</div>
+        <div id={'home'} className={'w-full pl-20'}>
+            <div className={'text-textprimary pt-20'}>Denis Badura</div>
+            <div className={'text-textsecondary pt-2'}>least reliable developer in Ostrava</div>
         </div>)
 }

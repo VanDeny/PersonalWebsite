@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        darkpurple: '#1d1f21',
+        textprimary: '#2b71bc',
+        textsecondary: '#666',
+        textrest: '#c9cacc',
+      },
       backgroundImage: {
         'profile-picture': "url(./public/me.png)",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

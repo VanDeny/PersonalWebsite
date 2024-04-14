@@ -2,7 +2,7 @@
 
 export default function Experience() {
     return(
-        <div>
+        <div className="text-center">
             Experience
         </div>
     )

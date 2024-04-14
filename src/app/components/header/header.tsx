@@ -1,6 +1,6 @@
 'use client'
 
-import Links from "@/app/components/header/links/links";
+import Links from '@/app/components/header/links/links';
 
 export default function Header() {
     return (
