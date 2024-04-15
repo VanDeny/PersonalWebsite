@@ -3,7 +3,7 @@
 export default function Footer() {
 
     return (
-        <div className="text-textsecondary">
+        <div className="text-textsecondary absolute left-0 bottom-0">
             Created by Denis
             @2024 Ostrava |||
             <span>   </span>
