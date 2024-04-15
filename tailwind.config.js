@@ -14,7 +14,7 @@ module.exports = {
         textrest: '#c9cacc',
       },
       backgroundImage: {
-        'profile-picture': "url(./public/me.png)",
+        'profile-picture': 'url(./public/me.png)',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

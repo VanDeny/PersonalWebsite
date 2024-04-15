@@ -5,3 +5,9 @@
 .page {
     @apply pl-20 pt-20 pr-96;
 }
+
+@layer base {
+    html {
+        @apply bg-darkpurple;
+    }
+}
