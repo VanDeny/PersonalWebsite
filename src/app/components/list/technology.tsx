@@ -30,7 +30,7 @@ export default function Technology() {
 
     return (
         <div>
-            <p className='pb-4'>
+            <p className='pb-4 text-textprimary'>
                 Technologies: 
             </p>
             <ul>

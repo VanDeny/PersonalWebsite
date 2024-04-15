@@ -16,7 +16,7 @@ export default function Hobby() {
 
     return (
         <div>
-            <p className='pb-4'>
+            <p className='pb-4 text-textprimary'>
                 Hobbies: 
             </p>
             <ul>

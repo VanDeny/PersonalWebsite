@@ -15,7 +15,7 @@ export default function Skill() {
 
     return (
         <div>
-            <p className='pb-4'>
+            <p className='pb-4 text-textprimary'>
                 Skills: 
             </p>
             <ul>
