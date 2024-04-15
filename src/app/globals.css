@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .page {
-    @apply pl-20 pt-20 pr-96;
+    @apply pl-[3%] pt-20 pr-[25%];
 }
 
 @layer base {
