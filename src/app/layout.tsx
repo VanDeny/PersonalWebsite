@@ -5,7 +5,7 @@ import { Tilt_Neon } from 'next/font/google'
 const inter = Tilt_Neon({ subsets: ['latin'], })
 
 export const metadata: Metadata = {
-  title: 'Denis Badura',
+  title: 'Denis Badura - personal website',
   description: 'Least reliable developer in Ostrava',
 }
 
