@@ -8,7 +8,7 @@ const inter = Tilt_Neon({ subsets: ['latin'], })
 export const metadata: Metadata = {
     title: 'Denis Badura - personal website',
     description: 'Least reliable developer in Ostrava',
-    keywords: ['Software Developer, Software Engineer', 'Ostrava', 'Web Developer', 'Javascript', 'Typescript', 'HTML', 'CSS', 'Angular']
+    keywords: ['Software Developer, Software Engineer', 'Ostrava', 'Web Developer', 'Javascript', 'Typescript', 'HTML', 'CSS', 'Angular', 'Denis Badura', 'Badura']
 }
 
 export default function RootLayout({
