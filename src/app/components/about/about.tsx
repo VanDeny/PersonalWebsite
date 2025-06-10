@@ -15,7 +15,11 @@ export default function About() {
         <div id="about" className="page">
             <p className="text-textprimary">How did you even end up here?</p>
             <p className='text-textrest'>{text}</p>
-            <p className='text-textrest pt-5'>{freeToHire}<a style={{color: '#6d4aff'}} href='mailto:badura.denis@pm.me'>{'badura.denis@pm.me'}</a></p>
+            <p className='text-textrest pt-5'>{freeToHire}<a style={{color: '#6d4aff'}} href='mailto:badura.denis@pm.me'>{'e-mail'}</a> {', or on '}
+                <a style={{color: 'blue'}} href="https://linkedin.com/in/denis-badura">
+                    <FontAwesomeIcon icon={faLinkedinIn}/>
+                </a>
+            </p>
             <p className='text-textrest pt-5'>{
             whereToFindMe
 }
