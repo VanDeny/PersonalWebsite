@@ -15,6 +15,7 @@ import { listView } from '@/app/service/list.service';
 
   const skills: {name: string; icon: IconDefinition, color?: string}[] = [
     {name: 'JavaScript', icon: faJs, color: 'orange' },
+    {name: 'TypeScript', icon: faJs, color: '#2f74c0' },
     {name: 'Angular', icon: faAngular, color: 'red'},
     {name: 'HTML', icon: faHtml5, color: '#dd4b25'},
     {name: 'CSS', icon: faCss3, color: '#254bdd'},
