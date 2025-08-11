@@ -1,13 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-.page {
-    @apply pl-[3%] pt-20 pr-[25%];
+@theme {
+    --color-darkpurple: #1d1f21;
+    --color-textprimary: #2b71bc;
+    --color-textsecondary: #666666;
+    --color-textrest: #c9cacc;
 }
 
+.page { @apply pl-[3%] pt-20 pr-[25%]; }
+
 @layer base {
-    html {
-        @apply bg-darkpurple;
-    }
+    html { @apply bg-darkpurple; }
 }
