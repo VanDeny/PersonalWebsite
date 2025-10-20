@@ -1,7 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Tilt_Neon } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
 
 const inter = Tilt_Neon({ subsets: ['latin'], })
 
@@ -25,7 +24,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{minHeight: '100%', margin: '0'}} className={inter.className}>{children}</body>
-      <Analytics />
     </html>
   )
 }
